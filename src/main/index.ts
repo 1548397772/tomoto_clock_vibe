@@ -50,7 +50,7 @@ function createWindow(): BrowserWindow {
     minHeight: 520,
     show: false,
     title: 'Tomoto Clock',
-    backgroundColor: '#f7f2ec',
+    backgroundColor: '#f6efe7',
     webPreferences: {
       preload: join(__dirname, '../preload/index.mjs'),
       contextIsolation: true,
